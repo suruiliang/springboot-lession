@@ -1,0 +1,6 @@
+#grails:
+#    plugin:
+#        springsecurity:
+#            controllerAnnotations:
+#                staticRules:
+#                    - {pattern: /endpointWisely/**, access: [permitAll]}

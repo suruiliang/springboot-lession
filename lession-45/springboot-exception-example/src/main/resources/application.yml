@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springboot-exception-core
+    #数据源配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+  jpa:
+    properties:
+      hibernate:
+        #配置显示sql
+        show_sql: true
+        #配置格式化sql
+        format_sql: true
